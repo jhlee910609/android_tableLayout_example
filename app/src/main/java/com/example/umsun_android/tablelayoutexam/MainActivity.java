@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "umsun://com.app.umsun.main_3";
+                String url = "umsun://com.myapp.main_3";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "umsun://com.app.umsun.homeactivity?color=red";
+                String url = "umsun://com.myapp.homeactivity?color=red";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }

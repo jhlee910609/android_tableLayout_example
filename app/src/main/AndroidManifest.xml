@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="com.app.umsun.homeactivity"
+                    android:host="com.myapp.homeactivity"
                     android:scheme="umsun" />
             </intent-filter>
         </activity>
@@ -37,7 +37,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="com.app.umsun.main_3"
+                    android:host="com.myapp.main_3"
                     android:scheme="umsun" />
             </intent-filter>
         </activity>
