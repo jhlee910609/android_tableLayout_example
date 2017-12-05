@@ -1,65 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="wrap_content"
-    android:stretchColumns="1"
-    android:padding="5dp"
-    android:background="#eeeeee"
-    tools:context="com.example.umsun_android.tablelayoutexam.MainActivity">
+    tools:context="com.example.umsun_android.tablelayoutexam.Main2Activity">
 
-    <TableRow
-        android:gravity="center"
-        android:padding="1dp"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary">
+        android:text="main_3" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="main_2" />
 
-        <TextView
-            android:layout_height="match_parent"
-            android:text="a"
-            android:background="#eeeeee"
-            android:textAlignment="center"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:text="a"
-            android:background="#eeeeee"
-            android:textAlignment="center"
-            android:textSize="20sp" />
-
-
-    </TableRow>
-
-    <TableRow
-        android:background="@color/colorPrimaryDark"
-        android:padding="1dp"
-        >
-
-        <TextView
-            android:layout_height="match_parent"
-            android:text="text2"
-            android:textAlignment="center" />
-
-        <TextView
-            android:layout_height="match_parent"
-            android:layout_span="2"
-            android:text="text2"
-            android:textAlignment="center" />
-
-
-
-
-
-    </TableRow>
-
-
-</TableLayout>
+</LinearLayout>
