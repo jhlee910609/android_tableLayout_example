@@ -19,4 +19,39 @@
         android:layout_height="wrap_content"
         android:text="main_2" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_medium_hestia"
+        android:text="가나다라마바사 (regular)"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_medium_hestia"
+        android:text="가나다라마바사 (medium)"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noto_sans_bold_hestia"
+        android:text="가나다라마바사 (시스템)"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시스템 폰트 볼드에요"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
 </LinearLayout>
